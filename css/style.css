@@ -51,12 +51,18 @@ img {
 
 a {
   text-decoration: none;
+  color: white;
+  transition: all 0.2s;
+}
+a:hover {
+  font-size: larger;
+  color: #FFC300;
 }
 
 .hero {
   background-color: #000814;
   color: white;
-  height: 590px;
+  height: 610px;
 }
 .hero nav {
   display: flex;
@@ -69,13 +75,6 @@ a {
 }
 .hero nav li {
   padding: 10px;
-}
-.hero nav a {
-  color: white;
-  transition: all 0.2s;
-}
-.hero nav a:hover {
-  color: #a2d0fc;
 }
 .hero-content {
   height: 100%;

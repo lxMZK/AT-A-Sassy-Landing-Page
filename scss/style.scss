@@ -18,11 +18,18 @@ img {
 
 a {
   text-decoration: none;
+  color: text-color-picker($primary-color);
+  transition: all .2s;
+    
+  &:hover {
+    font-size: larger;
+    color: $light-color;
+  }
 }
 
 .hero {
   @include set-bg($primary-color);
-  height: 590px;
+  height: 610px;
 
   nav {
     display: flex;
@@ -36,15 +43,6 @@ a {
 
     li {
       padding: 10px;
-    }
-
-    a {
-      color: text-color-picker($primary-color);
-      transition: all .2s;
-      
-      &:hover {
-        color: $secondary-color;
-      }
     }
   }
   
