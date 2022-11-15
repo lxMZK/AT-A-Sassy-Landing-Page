@@ -47,6 +47,11 @@ body {
 
 img {
   border-radius: 50%;
+  transition: all 2s;
+  z-index: 1;
+}
+img:hover {
+  transform: rotate(360deg);
 }
 
 a {
@@ -82,6 +87,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+  overflow: hidden;
 }
 .hero-content img {
   width: 50%;
