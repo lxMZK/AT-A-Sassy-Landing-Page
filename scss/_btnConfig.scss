@@ -1,6 +1,7 @@
 @import "utilities", "config";
 
 %btn {
+    transition: all .2s;
     display: inline-block;
     border-radius: 5px;
     padding: 8px 20px;

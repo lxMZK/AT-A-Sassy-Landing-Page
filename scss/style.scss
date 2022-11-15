@@ -40,6 +40,7 @@ a {
 
     a {
       color: text-color-picker($primary-color);
+      transition: all .2s;
       
       &:hover {
         color: $secondary-color;
